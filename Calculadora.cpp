@@ -12,11 +12,11 @@ int main() {
         printf("Informe a margem de lucro desejada (em porcentagem): ");
         scanf("%f", &margem_lucro);
 
-        // cálculo do valor de venda
+        // cÃ¡lculo do valor de venda
         valor_final = calcula(valor_inicial, margem_lucro);
 
-        // exibição do resultado
-        printf("O valor de venda do produto com margem de lucro de %.2f%% e acréscimo de 5%% é R$ %.2f \n", margem_lucro, valor_final);
+        // exibiÃ§Ã£o do resultado
+        printf("O valor de venda do produto com margem de lucro de %.2f%% e acrescimo de 5%% e R$ %.2f \n", margem_lucro, valor_final);
 
         printf("Deseja continuar? s/n\n");
         scanf(" %c", &resposta);
